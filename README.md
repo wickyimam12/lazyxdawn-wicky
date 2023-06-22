@@ -1,3 +1,3 @@
-# THIS PROJECT IS FOR ALL OF MY DESIGN THAT I MAKE BEFORE
+# THIS PROJECT IS FOR MY PORTFOLIO
 
-IM ONLY USING HTML AND CSS FOR THIS PROJECT :3 ( and a little bit of js h3h3 )
+Huge thanks to my friends who teach me how to code <3

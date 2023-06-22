@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: white;
+    color: #FFF973;
     padding-top: 50px;
     align-items: center;
 }
@@ -11,7 +11,7 @@ body {
 }
 
 .lol{
-    color: black;
+    color: #FFF973;
     text-align: center;
     text-decoration: none;
 }
@@ -56,8 +56,8 @@ body {
 
 .imgbg img{
     position: fixed;
-    margin-top: -8%;
-    filter: blur(5px);
+    margin-top: -7%;
+    filter: blur(8px);
     height: 1080px;
     width: 1920px;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .w3-container{
-    color: white;
+    color: #FFF973;
 }
 
 /* @media only screen and(min-width: 600px){
@@ -94,5 +94,36 @@ body {
 } */
 
 .warnateks{
-    color: yellow;
+    color: #FFF973;
 }
+.paddingfont {
+  max-width: 750px; /* Adjust the maximum width to your preference */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.solid {
+  border: 1px solid #FFF973; /* Replace 'red' with the desired border color */
+}
+.fade-transition {
+            animation: fadeEffect 1s ease;
+        }
+        @keyframes fadeEffect {
+            from { opacity: 0; }
+            to { opacity: 0.5; }
+        }
+.fade-transition2 {
+            animation: fadeEffect 2s ease;
+        }
+        @keyframes fadeEffect {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+.fade-transition3 {
+            animation: fadeEffect 5s ease;
+        }
+        @keyframes fadeEffect {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
