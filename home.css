@@ -5,56 +5,32 @@ body {
     align-items: center;
 }
 
-.tengah{
+.tengah {
     padding-right: 12px;
     align-items: center;
 }
 
-.lol{
+.lol {
     color: #FFF973;
     text-align: center;
     text-decoration: none;
 }
 
-.lol:hover{
+.lol:hover {
     transition: color 0.5s;
     color: white;
 }
 
-.text-center{
+.text-center {
     text-decoration: none;
     margin-top: 50%;
 }
 
-/* .jono{
-	text-decoration: none;
-    position: relative;
-	color: white;
-}	 */
-
-/* .jono::after{
-	content: '';
-    width: 0%;
-    height: 2px;
-    background: #bdc3c7;
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); 
-    background: linear-gradient(to right, #2c3e50, #bdc3c7);
-    position: absolute;
-    bottom: %; left: 50%;
-    border-radius: 10px;
-    transition: all 3000ms ease;
-} */
-
-/* .jono:hover::after{ 
-    left: 0%;
-    width: 100%;
-} */
-
-.pip{
+.pip {
     padding-right: 10px;
 }
 
-.imgbg img{
+.imgbg img {
     position: fixed;
     margin-top: -7%;
     filter: blur(8px);
@@ -62,68 +38,42 @@ body {
     width: 1920px;
 }
 
-.w3-xlarge{
+.w3-xlarge {
     cursor: pointer;
 }
 
-.w3-container{
+.w3-container {
     color: #FFF973;
 }
 
-/* @media only screen and(min-width: 600px){
-    .imgbg img{
-        height: 720px;
-        width: 12800px;
-    }
-} */
-
-
-/* .gambar{
-    padding-top: 150px;
-}
-
-.kuik{
-    color: black;
-    padding-left: 500px;
-    padding-top: 500px;
-    position: absolute;
-}
-
-.atas{
-    text-decoration: none;
-} */
-
-.warnateks{
+.warnateks {
     color: #FFF973;
 }
+
 .paddingfont {
-  max-width: 750px; /* Adjust the maximum width to your preference */
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+    max-width: 750px; /* Adjust the maximum width to your preference */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
+
 .solid {
-  border: 1px solid #FFF973; /* Replace 'red' with the desired border color */
+    border: 1px solid #FFF973; /* Replace 'red' with the desired border color */
 }
+
 .fade-transition {
-            animation: fadeEffect 1s ease;
-        }
-        @keyframes fadeEffect {
-            from { opacity: 0; }
-            to { opacity: 0.5; }
-        }
+    animation: fadeEffect 1s ease;
+}
+
 .fade-transition2 {
-            animation: fadeEffect 2s ease;
-        }
-        @keyframes fadeEffect {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+    animation: fadeEffect 2s ease;
+}
+
 .fade-transition3 {
-            animation: fadeEffect 5s ease;
-        }
-        @keyframes fadeEffect {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        
+    animation: fadeEffect 5s ease;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

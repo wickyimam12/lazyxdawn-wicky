@@ -1,20 +1,19 @@
-body{
+body {
     color: white;
     background-color: black;
 }
 
 .w {
-    
     width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.brip{
+.brip {
     text-decoration: none;
     transition: color 0.5s;
 }
 
-.brip:hover{
+.brip:hover {
     color: pink;
 }
 
@@ -22,17 +21,17 @@ body{
     position: relative;
     display: inline-block;
     overflow: hidden;
-  }
+}
 
-  .image-container img {
+.image-container img {
     transition: transform 0.3s;
-  }
+}
 
-  .image-container:hover img {
+.image-container:hover img {
     transform: scale(1.1);
-  }
+}
 
-  .image-description {
+.image-description {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -43,8 +42,8 @@ body{
     opacity: 0;
     transition: opacity 0.3s;
     font-family: Verdana;
-  }
+}
 
-  .image-container:hover .image-description {
+.image-container:hover .image-description {
     opacity: 1;
-  }
+}

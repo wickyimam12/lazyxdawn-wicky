@@ -62,9 +62,9 @@ button a {
   width: 1920px;
 }
 
-button :hover {
+button:hover {
   color: black;
-  transition: 0, 5;
+  transition: 0.5s;
 }
 
 .tulisan {
